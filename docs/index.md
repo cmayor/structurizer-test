@@ -17,3 +17,7 @@ This is another diagram.
 ```mermaid
 {% include 'diagrams/structurizr-Diagram2.mmd' %}
 ```
+
+## PlantUML
+
+![file](diagrams/out/basic.png)
