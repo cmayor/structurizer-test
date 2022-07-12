@@ -1,0 +1,17 @@
+graph LR
+  linkStyle default fill:#ffffff
+
+  1["<div style='font-weight: bold'>User</div><div style='font-size: 70%; margin-top: 0px'>[Person]</div>"]
+  style 1 fill:#08427b,stroke:#052e56,color:#ffffff
+
+  subgraph 2 [Software System]
+    style 2 fill:#ffffff,stroke:#444444,color:#444444
+
+    3("<div style='font-weight: bold'>Web Application</div><div style='font-size: 70%; margin-top: 0px'>[Container]</div>")
+    style 3 fill:#438dd5,stroke:#2e6295,color:#ffffff
+    6("<div style='font-weight: bold'>Database</div><div style='font-size: 70%; margin-top: 0px'>[Container]</div>")
+    style 6 fill:#438dd5,stroke:#2e6295,color:#ffffff
+  end
+
+  1-. "<div>Uses</div><div style='font-size: 70%'></div>" .->3
+  3-. "<div>Reads from and writes to</div><div style='font-size: 70%'></div>" .->6
