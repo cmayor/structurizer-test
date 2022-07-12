@@ -1,0 +1,12 @@
+site_name: Structurizr MkDocs Sample
+site_url: https://cmayor.github.io/structurizer-test/
+
+plugins:
+    - search
+    - macros
+    - mermaid2:
+          arguments:
+              securityLevel: 'loose'
+
+theme:
+    name: material
