@@ -20,4 +20,4 @@ This is another diagram.
 
 ## PlantUML
 
-![file](diagrams/out/basic.png)
+![file](diagrams/out/basic.svg)
