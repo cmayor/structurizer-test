@@ -21,6 +21,7 @@ These diagrams have been exported to a Mermaid file from the [Structurizr worksp
 ## PlantUML
 
 This is a PlantUML diagram generated using the [C4 extensions](https://github.com/plantuml-stdlib/C4-PlantUML)
+
 [PlantUML source](https://github.com/cmayor/structurizer-test/blob/main/docs/diagrams/src/basic.puml)
 
 ![file](diagrams/out/C4_Elements.svg)
